@@ -5,13 +5,14 @@ const {google} = require('googleapis')
 const app = express()
 app.use(express.json())
 
-app.listen(9999, (req, res) => console.log('running on 9999'))
+app.listen(10000, (req, res) => console.log('running on 10000'))
 
-app.get('/hcheck', async(req, res) => {
 
-    res.status(200)
 
-})
+app.get('/hcheck' , (req,res)=>{
+    console.log('health checked')
+    res.sendStatus(200)
+  })
 
 
 app.post('/', async(req, res) => {
