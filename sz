@@ -1,0 +1,71 @@
+- wilson - 
+- willow - druid
+- wendy - driud
+- wigfried - kina
+- wurt - 
+- webber -
+- walter - paladin
+- wolgang - kina
+- woodie - kina
+
+
+- bosses:
+
+- deerclops
+- moose
+- ancient fuelweaver
+- toadstool
+- bearger
+- dragonfly
+
+- treeguard
+- spiderqueen
+- pugalisk
+- beequeen
+- btb
+
+
+
+- gmapoints
+
+[exploration]
+- players can take 2 actions, so they can move 2 blocks in a turn
+- upon landing on a new tile, player can choose to reveal an adjacent other
+
+[collect]
+- barehands: dice + character modifiers
+- using tools: dice X tool dice count, + charc mods
+- retrieving from chests
+- retrieving from monsters loot
+
+[crafting]
+- based on crafting cards
+
+[cooking]
+- based on the recipe list
+
+[battling]
+- each mob has: HP, LOOT, ACTIONS: (ex) NORMAL ATK(ATK DMG BASED ON DICES) - SPECIAL ATK - SPECIAL POWER - RETREAT
+- defeating a boss, all party members receives 1 level
+- upon encountering a hostile mob, player loses 1 sanity.
+- upon encountering a boss, all players loses 2 sanity.
+- player can choose between fight or flee, while choosing to flee costs 2 sanity
+- the battle is based on turns, each player standing on the same tile or an adjanct tile can take part in the battle,
+    on each turn, a player can use an item or simply perform an attack action, throwing the correct dice quanty
+- when a player misses an attack, the mob counter attacks using his base attack
+- after all players took action, the mob performs a special action based on the wheel of mob actions
+- battling bosses follows the same routine, while the boss actions is more complex and rpg-ish.
+- bosses have way more hp, and more special actions.
+
+[surviving]
+- hunger: each day costs 1 hunger point, players restore hunger by eating food
+- sanity: encountering monsters costs sanity, players restore sanity by resting and eating special food
+- hp: players can lose hp while battling monsters
+- temperature: players can heat up or freeze during the harsh seasons. its essential to have a plan to deal with the burning summer and the freezing winter
+    dealing with harsh seasons include: special food like hot chocolate or ice cream, special clothes, items and also structures like tent.
+
+
+
+
+
+
