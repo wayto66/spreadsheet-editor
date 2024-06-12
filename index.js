@@ -5,6 +5,10 @@ import https from "https";
 
 const app = express();
 
+process.on("uncaughtException", (error) => {
+  console.error(error);
+});
+
 // Add headers before the routes are defined
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
