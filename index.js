@@ -70,7 +70,7 @@ app.post("/", async (req, res) => {
     entryFGTS,
   } = req.body;
 
-  const append = googleSheets.spreadsheets.values.append({
+  const append = await googleSheets.spreadsheets.values.append({
     auth,
     spreadsheetId,
     range: range,
