@@ -68,6 +68,7 @@ app.post("/", async (req, res) => {
     entryEmail,
     entryPhone,
     entryFGTS,
+    empName,
   } = req.body;
 
   const append = await googleSheets.spreadsheets.values.append({
@@ -80,6 +81,7 @@ app.post("/", async (req, res) => {
       values: [
         [
           entryDate,
+          empName,
           entryName,
           entryContactPreference,
           entryEmail,
